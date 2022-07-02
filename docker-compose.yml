@@ -1,13 +1,17 @@
 version: '2'
-
 volumes:
   settings:                          # Only required if using PERSISTENT flag (see below)
-
 services:
-
   browser:
     build: .
     privileged: true # required for UDEV to find plugged in peripherals such as a USB mouse
     network_mode: host
     volumes:
       - 'settings:/data' # Only required if using PERSISTENT flag (see below)
+    environment:
+      PERSISTENT: 1
+      LAUNCH_URL: 'https://www.google.com'
+      KIOSK: 1
+      SHOW_CURSOR: 1
+      ENABLE_GPU: 1
+      FLAGS: '--enable-touchview=1 --enable-viewport=1 --enable-virtual-keyboard=1 --has-chromeos-keyboard=1'
