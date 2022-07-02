@@ -8,7 +8,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/balenablocks/browser.git"
+      "url": "git+https://github.com/farmgoods/browser.git"
     },
   "private": true,
     "keywords": [
@@ -22,9 +22,9 @@
       "esversion": 8
     },
     "bugs": {
-      "url": "https://github.com/balenablocks/browser/issues"
+      "url": "https://github.com/farmgoods/browser/issues"
     },
-    "homepage": "https://github.com/balenablocks/browser#readme",
+    "homepage": "https://github.com/farmgoods/browser#readme",
     "dependencies": {
         "chrome-launcher": "^0.13.4",
         "body-parser": "^1.19.0",
@@ -36,4 +36,4 @@
         "set-interval-async": "^1.0.34"
     }
   }
-  
+

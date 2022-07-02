@@ -1,5 +1,5 @@
 # balenablocks/browser
- [![balena](https://github.com/balenablocks/browser/actions/workflows/balena.yml/badge.svg)](https://github.com/balenablocks/browser/actions/workflows/balena.yml)
+ [![balena](https://github.com/farmgoods/browser/actions/workflows/balena.yml/badge.svg)](https://github.com/farmgoods/browser/actions/workflows/balena.yml)
 
 Provides a hardware accelerated web browser to present internal and external URLs on a connected display.
 The `browser` block is a docker image that runs a [Chromium](https://www.chromium.org/Home) browser via X11, optimized for balenaOS.
@@ -221,7 +221,7 @@ Returns the flags Chromium was started with
 Returns the version of Chromium that `browser` is running
 
 #### **GET** /screenshot
-Uses [scrot](https://opensource.com/article/17/11/taking-screen-captures-linux-command-line-scrot) to take a screenshot of the chromium window. 
+Uses [scrot](https://opensource.com/article/17/11/taking-screen-captures-linux-command-line-scrot) to take a screenshot of the chromium window.
 The screenshot will be saved as a temporary file in the container.
 
 ---
