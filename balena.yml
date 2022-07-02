@@ -38,11 +38,11 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/farmgoods/browser'
+      url: 'https://github.com/jkassis/browser'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/farmgoods/browser/master/logo.png'
+      url: 'https://raw.githubusercontent.com/jkassis/browser/master/logo.png'
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
